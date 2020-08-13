@@ -38,7 +38,7 @@
     <link rel="preload"
         href="https://fonts.googleapis.com/css?family=Open Sans:bold,regular|Itim:bold,regular&display=swap" as="style"
         onload="this.onload = null;this.rel = 'stylesheet';">
-    <link rel="preload" href="https://w.ladicdn.com/v2/source/ladipage.min.js?v=1596788733763" as="script">
+    <link rel="preload" href="https://w.ladicdn.com/v2/source/ladipage.min.js?v=1597309551491" as="script">
     <style id="style_ladi" type="text/css">
         a,
         abbr,
@@ -2548,6 +2548,17 @@
                 background: linear-gradient(180deg, #ff6a00, #ee0979);
             }
 
+            #BUTTON159.ladi-animation>.ladi-button {
+                animation-name: shake;
+                -webkit-animation-name: shake;
+                animation-delay: 2s;
+                -webkit-animation-delay: 2s;
+                animation-duration: 3s;
+                -webkit-animation-duration: 3s;
+                animation-iteration-count: 1;
+                -webkit-animation-iteration-count: 1;
+            }
+
             #BUTTON_TEXT159 {
                 width: 196px;
                 top: 9px;
@@ -3593,8 +3604,8 @@
             #FORM158 {
                 width: 350.5px;
                 height: 271px;
-                top: 1283.42px;
-                left: 35px;
+                top: 1303.42px;
+                left: 34.75px;
             }
 
             #FORM158>.ladi-form {
@@ -3630,6 +3641,17 @@
                 background: #ff6a00;
                 background: -webkit-linear-gradient(180deg, #ff6a00, #ee0979);
                 background: linear-gradient(180deg, #ff6a00, #ee0979);
+            }
+
+            #BUTTON159.ladi-animation>.ladi-button {
+                animation-name: shake;
+                -webkit-animation-name: shake;
+                animation-delay: 2s;
+                -webkit-animation-delay: 2s;
+                animation-duration: 3s;
+                -webkit-animation-duration: 3s;
+                animation-iteration-count: 1;
+                -webkit-animation-iteration-count: 1;
             }
 
             #BUTTON_TEXT159 {
@@ -3674,10 +3696,10 @@
             }
 
             #COUNTDOWN167 {
-                width: 207.719px;
-                height: 37px;
+                width: 179.649px;
+                height: 32px;
                 top: 1243px;
-                left: 106.14px;
+                left: 77.14px;
             }
 
             #COUNTDOWN167>.ladi-countdown {
@@ -3691,6 +3713,11 @@
                 width: calc((100% - 4px * 3) / 4);
                 margin-right: 4px;
                 height: 100%;
+            }
+
+            #COUNTDOWN_ITEM168 {
+                visibility: hidden;
+                pointer-events: none;
             }
 
             #HEADLINE172 {
@@ -4304,13 +4331,13 @@
     <div id="lightbox-screen" class="lightbox-screen"></div>
     <script id="script_lazyload"
         type="text/javascript">(function () { var list_element_lazyload = document.querySelectorAll('.ladi-section-background, .ladi-image-background, .ladi-button-background, .ladi-headline, .ladi-video-background, .ladi-countdown-background, .ladi-box, .ladi-frame-background, .ladi-banner, .ladi-form-item-background, .ladi-gallery-view-item, .ladi-gallery-control-item, .ladi-spin-lucky-screen, .ladi-spin-lucky-start, .ladi-list-paragraph ul li'); var style_lazyload = document.getElementById('style_lazyload'); for (var i = 0; i < list_element_lazyload.length; i++) { var rect = list_element_lazyload[i].getBoundingClientRect(); if (rect.x == "undefined" || rect.x == undefined || rect.y == "undefined" || rect.y == undefined) { rect.x = rect.left; rect.y = rect.top; } var offset_top = rect.y + window.scrollY; if (offset_top >= window.scrollY + window.innerHeight || window.scrollY >= offset_top + list_element_lazyload[i].offsetHeight) { list_element_lazyload[i].classList.add('ladi-lazyload'); } } style_lazyload.parentElement.removeChild(style_lazyload); var currentScrollY = window.scrollY; var stopLazyload = function (event) { if (event.type == "scroll" && window.scrollY == currentScrollY) { currentScrollY = -1; return; } window.removeEventListener('scroll', stopLazyload); list_element_lazyload = document.getElementsByClassName('ladi-lazyload'); while (list_element_lazyload.length > 0) { list_element_lazyload[0].classList.remove('ladi-lazyload'); } }; window.addEventListener('scroll', stopLazyload); })();</script>
-    <!--[if lt IE 9]><script src="https://w.ladicdn.com/v2/source/html5shiv.min.js?v=1596788733763"></script><script src="https://w.ladicdn.com/v2/source/respond.min.js?v=1596788733763"></script><![endif]-->
+    <!--[if lt IE 9]><script src="https://w.ladicdn.com/v2/source/html5shiv.min.js?v=1597309551491"></script><script src="https://w.ladicdn.com/v2/source/respond.min.js?v=1597309551491"></script><![endif]-->
     <link href="https://fonts.googleapis.com/css?family=Open Sans:bold,regular|Itim:bold,regular&display=swap"
         rel="stylesheet" type="text/css">
-    <link href="https://w.ladicdn.com/v2/source/ladipage.min.css?v=1596788733763" rel="stylesheet" type="text/css">
-    <script src="https://w.ladicdn.com/v2/source/ladipage.min.js?v=1596788733763" type="text/javascript"></script>
+    <link href="https://w.ladicdn.com/v2/source/ladipage.min.css?v=1597309551491" rel="stylesheet" type="text/css">
+    <script src="https://w.ladicdn.com/v2/source/ladipage.min.js?v=1597309551491" type="text/javascript"></script>
     <script id="script_event_data"
-        type="text/javascript">(function () { var run = function () { if (typeof window.LadiPageScript == "undefined" || window.LadiPageScript == undefined || typeof window.ladi == "undefined" || window.ladi == undefined) { setTimeout(run, 100); return; } window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2(); window.LadiPageScript.runtime.ladipage_id = '5f33db4b9814633f7b8705f4'; window.LadiPageScript.runtime.isMobileOnly = false; window.LadiPageScript.runtime.DOMAIN_SET_COOKIE = ["pagedemo.me"]; window.LadiPageScript.runtime.DOMAIN_FREE = []; window.LadiPageScript.runtime.bodyFontSize = 12; window.LadiPageScript.runtime.time_zone = 7; window.LadiPageScript.runtime.currency = "VND"; window.LadiPageScript.runtime.eventData = "%7B%22GALLERY2%22%3A%7B%22type%22%3A%22gallery%22%2C%22desktop.option.gallery_control.autoplay%22%3Atrue%2C%22desktop.option.gallery_control.autoplay_time%22%3A5%2C%22mobile.option.gallery_control.autoplay%22%3Atrue%2C%22mobile.option.gallery_control.autoplay_time%22%3A5%7D%2C%22BUTTON22%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_action%22%3A%7B%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP173%22%7D%7D%2C%22POPUP118%22%3A%7B%22type%22%3A%22popup%22%2C%22desktop.option.popup_position%22%3A%22default%22%2C%22desktop.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%2C%22mobile.option.popup_position%22%3A%22default%22%2C%22mobile.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%7D%2C%22BUTTON136%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_action%22%3A%7B%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP173%22%7D%2C%22desktop.style.animation-name%22%3A%22pulse%22%2C%22desktop.style.animation-delay%22%3A%222s%22%2C%22mobile.style.animation-name%22%3A%22pulse%22%2C%22mobile.style.animation-delay%22%3A%222s%22%7D%2C%22BUTTON148%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_action%22%3A%7B%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP173%22%7D%2C%22desktop.style.animation-name%22%3A%22pulse%22%2C%22desktop.style.animation-delay%22%3A%222s%22%2C%22mobile.style.animation-name%22%3A%22pulse%22%2C%22mobile.style.animation-delay%22%3A%222s%22%7D%2C%22FORM158%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%225f34a294e3d9853f82368930%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22popup%22%2C%22option.thankyou_value%22%3A%22POPUP118%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%7D%2C%22FORM_ITEM160%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%7D%2C%22FORM_ITEM162%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%7D%2C%22FORM_ITEM164%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22select%22%2C%22option.input_tabindex%22%3A3%7D%2C%22FORM_ITEM165%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22number%22%2C%22option.input_tabindex%22%3A4%7D%2C%22COUNTDOWN167%22%3A%7B%22type%22%3A%22countdown%22%2C%22option.countdown_type%22%3A%22countdown%22%2C%22option.countdown_minute%22%3A60%7D%2C%22COUNTDOWN_ITEM168%22%3A%7B%22type%22%3A%22countdown_item%22%2C%22option.countdown_item_type%22%3A%22day%22%7D%2C%22COUNTDOWN_ITEM169%22%3A%7B%22type%22%3A%22countdown_item%22%2C%22option.countdown_item_type%22%3A%22hour%22%7D%2C%22COUNTDOWN_ITEM170%22%3A%7B%22type%22%3A%22countdown_item%22%2C%22option.countdown_item_type%22%3A%22minute%22%7D%2C%22COUNTDOWN_ITEM171%22%3A%7B%22type%22%3A%22countdown_item%22%2C%22option.countdown_item_type%22%3A%22seconds%22%7D%2C%22POPUP173%22%3A%7B%22type%22%3A%22popup%22%2C%22desktop.option.popup_position%22%3A%22default%22%2C%22desktop.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%2C%22mobile.option.popup_position%22%3A%22default%22%2C%22mobile.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%7D%2C%22FORM177%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%225f34a294e3d9853f82368930%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22popup%22%2C%22option.thankyou_value%22%3A%22POPUP118%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%7D%2C%22FORM_ITEM180%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%7D%2C%22FORM_ITEM182%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%7D%2C%22FORM_ITEM184%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22number%22%2C%22option.input_tabindex%22%3A4%7D%2C%22FORM_ITEM185%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A4%7D%2C%22FORM_ITEM186%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22select%22%2C%22option.input_tabindex%22%3A5%7D%2C%22FORM_ITEM187%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A5%7D%7D"; window.LadiPageScript.run(true); window.LadiPageScript.runEventScroll(); }; run(); })();</script>
+        type="text/javascript">(function () { var run = function () { if (typeof window.LadiPageScript == "undefined" || window.LadiPageScript == undefined || typeof window.ladi == "undefined" || window.ladi == undefined) { setTimeout(run, 100); return; } window.LadiPageApp = window.LadiPageApp || new window.LadiPageAppV2(); window.LadiPageScript.runtime.ladipage_id = '5f33db4b9814633f7b8705f4'; window.LadiPageScript.runtime.isMobileOnly = false; window.LadiPageScript.runtime.DOMAIN_SET_COOKIE = ["pagedemo.me"]; window.LadiPageScript.runtime.DOMAIN_FREE = []; window.LadiPageScript.runtime.bodyFontSize = 12; window.LadiPageScript.runtime.store_id = "5f33db23e3d9853f82367fb9"; window.LadiPageScript.runtime.time_zone = 7; window.LadiPageScript.runtime.currency = "VND"; window.LadiPageScript.runtime.eventData = "%7B%22GALLERY2%22%3A%7B%22type%22%3A%22gallery%22%2C%22desktop.option.gallery_control.autoplay%22%3Atrue%2C%22desktop.option.gallery_control.autoplay_time%22%3A5%2C%22mobile.option.gallery_control.autoplay%22%3Atrue%2C%22mobile.option.gallery_control.autoplay_time%22%3A5%7D%2C%22BUTTON22%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_action%22%3A%7B%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP173%22%7D%7D%2C%22POPUP118%22%3A%7B%22type%22%3A%22popup%22%2C%22desktop.option.popup_position%22%3A%22default%22%2C%22desktop.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%2C%22mobile.option.popup_position%22%3A%22default%22%2C%22mobile.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%7D%2C%22BUTTON136%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_action%22%3A%7B%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP173%22%7D%2C%22desktop.style.animation-name%22%3A%22pulse%22%2C%22desktop.style.animation-delay%22%3A%222s%22%2C%22mobile.style.animation-name%22%3A%22pulse%22%2C%22mobile.style.animation-delay%22%3A%222s%22%7D%2C%22BUTTON148%22%3A%7B%22type%22%3A%22button%22%2C%22option.data_action%22%3A%7B%22type%22%3A%22popup%22%2C%22action%22%3A%22POPUP173%22%7D%2C%22desktop.style.animation-name%22%3A%22pulse%22%2C%22desktop.style.animation-delay%22%3A%222s%22%2C%22mobile.style.animation-name%22%3A%22pulse%22%2C%22mobile.style.animation-delay%22%3A%222s%22%7D%2C%22FORM158%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%225f34a294e3d9853f82368930%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22popup%22%2C%22option.thankyou_value%22%3A%22POPUP118%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%7D%2C%22BUTTON159%22%3A%7B%22type%22%3A%22button%22%2C%22desktop.style.animation-name%22%3A%22shake%22%2C%22desktop.style.animation-delay%22%3A%222s%22%2C%22mobile.style.animation-name%22%3A%22shake%22%2C%22mobile.style.animation-delay%22%3A%222s%22%7D%2C%22FORM_ITEM160%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%7D%2C%22FORM_ITEM162%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%7D%2C%22FORM_ITEM164%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22select%22%2C%22option.input_tabindex%22%3A3%7D%2C%22FORM_ITEM165%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22number%22%2C%22option.input_tabindex%22%3A4%7D%2C%22COUNTDOWN167%22%3A%7B%22type%22%3A%22countdown%22%2C%22option.countdown_type%22%3A%22countdown%22%2C%22option.countdown_minute%22%3A60%7D%2C%22COUNTDOWN_ITEM168%22%3A%7B%22type%22%3A%22countdown_item%22%2C%22option.countdown_item_type%22%3A%22day%22%7D%2C%22COUNTDOWN_ITEM169%22%3A%7B%22type%22%3A%22countdown_item%22%2C%22option.countdown_item_type%22%3A%22hour%22%7D%2C%22COUNTDOWN_ITEM170%22%3A%7B%22type%22%3A%22countdown_item%22%2C%22option.countdown_item_type%22%3A%22minute%22%7D%2C%22COUNTDOWN_ITEM171%22%3A%7B%22type%22%3A%22countdown_item%22%2C%22option.countdown_item_type%22%3A%22seconds%22%7D%2C%22POPUP173%22%3A%7B%22type%22%3A%22popup%22%2C%22desktop.option.popup_position%22%3A%22default%22%2C%22desktop.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%2C%22mobile.option.popup_position%22%3A%22default%22%2C%22mobile.option.popup_backdrop%22%3A%22background-color%3A%20rgba(0%2C%200%2C%200%2C%200.5)%3B%22%7D%2C%22FORM177%22%3A%7B%22type%22%3A%22form%22%2C%22option.form_config_id%22%3A%225f34a294e3d9853f82368930%22%2C%22option.form_send_ladipage%22%3Atrue%2C%22option.thankyou_type%22%3A%22popup%22%2C%22option.thankyou_value%22%3A%22POPUP118%22%2C%22option.form_auto_funnel%22%3Atrue%2C%22option.form_auto_complete%22%3Atrue%7D%2C%22FORM_ITEM180%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A1%7D%2C%22FORM_ITEM182%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22tel%22%2C%22option.input_tabindex%22%3A3%7D%2C%22FORM_ITEM184%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22number%22%2C%22option.input_tabindex%22%3A4%7D%2C%22FORM_ITEM185%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A4%7D%2C%22FORM_ITEM186%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22select%22%2C%22option.input_tabindex%22%3A5%7D%2C%22FORM_ITEM187%22%3A%7B%22type%22%3A%22form_item%22%2C%22option.input_type%22%3A%22text%22%2C%22option.input_tabindex%22%3A5%7D%7D"; window.LadiPageScript.run(true); window.LadiPageScript.runEventScroll(); }; run(); })();</script>
 </body>
 
 </html>
